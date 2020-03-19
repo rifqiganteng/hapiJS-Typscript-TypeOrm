@@ -1,0 +1,40 @@
+{
+  "name": "dkey-be-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "start:dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.0.0",
+    "bcrypt": "^3.0.8",
+    "hapi": "^18.1.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "md5-typescript": "^1.0.5",
+    "pg": "^7.17.1",
+    "redis": "^3.0.2",
+    "ts-md5": "^1.2.7",
+    "ts-node": "^8.6.2",
+    "typeorm": "^0.2.22",
+    "typescript": "2.6.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "@types/jsonwebtoken": "^8.3.7",
+    "@types/bcrypt": "^3.0.0",
+    "@types/hapi": "^18.0.3",
+    "@types/node": "^13.5.0",
+    "@types/redis": "^2.8.14"
+  }
+}
